@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
     this->resize(640, 480);
     QPixmap pixmap;
     QLabel *label= new QLabel(this);
-    pixmap.load("D:/tmp_proj/angularspeedgauge/velocitymeter_out.png");
+    pixmap.load("velocitymeter_out.png");
     label->show();
     label->resize(640,480);
     label->setPixmap(pixmap.scaled(640, 480, Qt::KeepAspectRatio));
