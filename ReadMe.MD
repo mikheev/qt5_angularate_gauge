@@ -1,0 +1,1 @@
+Free cross-compile soft for angular rate sensor MG-10. Guage show rate speed.
